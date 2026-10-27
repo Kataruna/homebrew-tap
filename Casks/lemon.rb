@@ -1,6 +1,6 @@
 cask "lemon" do
-  version "0.4.0"
-  sha256 "cc9eb890fe51e3ef8d126b8d01d1ceb1c998699361f9869ab454d7b54de4594e"
+  version "0.5.0"
+  sha256 "311837f4d6c8231aaff4ec87b9a75284addb1ba2aaa8155f8502cf44bc106cd3"
 
   url "https://github.com/Kataruna/Lemon/releases/download/mac-v#{version}/Lemon-#{version}-mac.zip"
   name "Lemon"
@@ -23,6 +23,7 @@ cask "lemon" do
 
   zap trash: [
     "~/Library/Application Support/Lemon",
+    "~/Library/Caches/com.sarabunari.lemon",
     "~/Library/Preferences/com.sarabunari.lemon.plist",
   ]
 
