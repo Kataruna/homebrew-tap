@@ -1,6 +1,6 @@
 cask "lemon" do
-  version "0.5.0"
-  sha256 "311837f4d6c8231aaff4ec87b9a75284addb1ba2aaa8155f8502cf44bc106cd3"
+  version "0.6.1"
+  sha256 "ecc8ed386ad0fb0b48defd0f14cc9b0a27648654d140758dc806cd79d9f4a0c6"
 
   url "https://github.com/Kataruna/Lemon/releases/download/mac-v#{version}/Lemon-#{version}-mac.zip"
   name "Lemon"
